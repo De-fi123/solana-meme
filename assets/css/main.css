@@ -4449,7 +4449,6 @@ iframe {
     grid-template: repeat(3, 45px)/repeat(3, 45px);
     border: 1px solid #2e0327;
     position: absolute;
-    background-image: url('../images/banner/');
     width: 200px;
     height: 200px;
     padding: 32.5px;
@@ -4474,37 +4473,37 @@ iframe {
   }
   .scene .cube__face--front {
     transform: rotateY(0deg) translateZ(100px);
-    background-image: url('../images/banner/thumb.jpg');
+    background-image: url('../../image1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
   .scene .cube__face--back {
     transform: rotateY(90deg) translateZ(100px);
-    background-image: url('../images/banner/thumbs1.jpg');
+    background-image: url('../../image2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
   .scene .cube__face--left {
     transform: rotateY(180deg) translateZ(100px);
-    background-image: url('../images/how/thumb.jpg');
+    background-image: url('../../image3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
   .scene .cube__face--right {
     transform: rotateY(-90deg) translateZ(100px);
-    background-image: url('../images/how/thumb.jpg');
+    background-image: url('../../image4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
   .scene .cube__face--top {
     transform: rotateX(90deg) translateZ(100px);
-    background-image: url('../images/faq/thumbs1.jpg');
+    background-image: url('../../image5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
   .scene .cube__face--bottom {
     transform: rotateX(-90deg) translateZ(100px);
-    background-image: url('../images/banner//thumbs1.jpg');
+    background-image: url('../../image6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
