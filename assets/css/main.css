@@ -1068,7 +1068,7 @@ i {
 .header {
     position: absolute;
     top: 0;
-    height: 70px;
+    height: 80px;
     width:  100%;
     z-index: 11;
     -webkit-transition: all ease .3s;
@@ -1125,7 +1125,7 @@ i {
 
 @media (max-width: 575px) {
     .logo img {
-        max-width: 100px;
+        max-width: 50px;
         max-height: 50px;
     }
 }
