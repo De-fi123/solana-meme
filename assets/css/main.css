@@ -4117,6 +4117,7 @@ div[class*='col']:nth-child(even) > .faq-item {
     flex-wrap: wrap;
 }
 
+
 .video-button, .account-section, .input-pre-icon, .dashboard__card-icon, .reset-header .icon, .why-item__thumb, .how-item__thumb, .investor-item__thumb, .winner-item__thumb, .game-details-left, .single-select.active::after, .social-links li a, .preloader {
     display: flex;
     align-items: center;
