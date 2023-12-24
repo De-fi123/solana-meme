@@ -2,7 +2,7 @@
 
 // Preloader
 $(window).on('load', function () {
-    $('.preloader').fadeOut(3500);
+    $('.preloader').fadeOut(8500);
 });
 
 
