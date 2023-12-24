@@ -4297,7 +4297,7 @@ iframe {
     background-size: cover;
     left: 0;
     z-index: 9999;
-    /* text-align: center; */
+    text-align: center;
     display: -webkit-box;
     width: 100vW;
     height: 100vh;
@@ -4449,8 +4449,8 @@ iframe {
     display: grid;
     grid-template: repeat(3, 45px)/repeat(3, 45px);
     border: 1px solid #2e0327;
-    background: #4b0e40;
     position: absolute;
+    background-image: url('../images/banner/');
     width: 200px;
     height: 200px;
     padding: 32.5px;
@@ -4475,21 +4475,39 @@ iframe {
   }
   .scene .cube__face--front {
     transform: rotateY(0deg) translateZ(100px);
+    background-image: url('../images/banner/thumb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .scene .cube__face--back {
     transform: rotateY(90deg) translateZ(100px);
+    background-image: url('../images/banner/thumbs1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .scene .cube__face--left {
     transform: rotateY(180deg) translateZ(100px);
+    background-image: url('../images/how/thumb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .scene .cube__face--right {
     transform: rotateY(-90deg) translateZ(100px);
+    background-image: url('../images/how/thumb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .scene .cube__face--top {
     transform: rotateX(90deg) translateZ(100px);
+    background-image: url('../images/faq/thumbs1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .scene .cube__face--bottom {
     transform: rotateX(-90deg) translateZ(100px);
+    background-image: url('../images/banner//thumbs1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .scene .cube__face i {
     width: 100%;

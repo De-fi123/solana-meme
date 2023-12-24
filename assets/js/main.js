@@ -1,6 +1,6 @@
 'user strict';
 
-// Preloader
+Preloader
 $(window).on('load', function () {
     $('.preloader').fadeOut(8500);
 });
