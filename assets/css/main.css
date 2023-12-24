@@ -4297,7 +4297,7 @@ iframe {
     background-size: cover;
     left: 0;
     z-index: 9999;
-    text-align: center;
+    /* text-align: center; */
     display: -webkit-box;
     width: 100vW;
     height: 100vh;
