@@ -4290,11 +4290,10 @@ iframe {
 
 .preloader {
    
-    background-image: url('../images/banner/thumb.jpg');
     position: fixed;
     top: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color:#21130d;
+
     left: 0;
     z-index: 9999;
     text-align: center;
